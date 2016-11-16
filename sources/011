@@ -1,0 +1,8 @@
+public class Fun011 {
+	public String main(){
+		String s = "\\\\a\\b\\c\"";
+		String str = s.replaceAll("\\\\","d");
+        return str;
+	}
+	
+}

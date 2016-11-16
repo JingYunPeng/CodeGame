@@ -1,0 +1,6 @@
+public class Fun024 {
+	public static String main() {
+		int result = (int)(char)(byte)-1;
+		return String.valueOf(result);
+	}
+}

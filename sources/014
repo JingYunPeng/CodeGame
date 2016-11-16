@@ -1,0 +1,11 @@
+public class Fun014 {
+	public String methodA(String str, Integer... ints){
+		return str + "i";
+	}
+	public String methodA(String str, Object... objs){
+		return str + "o";
+	}
+	public String main(){
+		return methodA("abc", null);
+	}
+}

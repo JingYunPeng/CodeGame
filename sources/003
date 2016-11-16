@@ -1,0 +1,9 @@
+public class Fun003 {
+	public String main() {
+		int count = 0;
+		for (int i = 1; i <= 4; i++) {
+			count = count++;
+		}
+		return ++count + " " + count++;
+	}
+}

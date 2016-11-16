@@ -1,0 +1,8 @@
+public class Fun002 {
+	public String main() {
+		int i = 80;
+		String s1 = String.valueOf(i<100?90:100);
+		String s2 = String.valueOf(i<100?90:100.0);
+		return String.valueOf(s1.equals(s2));
+	}
+}

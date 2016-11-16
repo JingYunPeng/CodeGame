@@ -1,0 +1,6 @@
+public class Fun023 {
+	public static String main() {
+		long sum = 0x100000000L + 0xcafebabe;
+		return Long.toHexString(sum);
+	}
+}

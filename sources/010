@@ -1,0 +1,9 @@
+public class Fun010 {
+	public String main(){
+        String s = "aabb";
+        s.replace("a","c");
+        s.replaceAll("b","d");
+        return s;
+	}
+	
+}

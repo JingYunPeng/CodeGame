@@ -1,0 +1,8 @@
+public class Fun007 {
+
+    public String main() {
+    	String s;
+        return "s=" + s;
+    }
+
+}

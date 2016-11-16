@@ -1,0 +1,10 @@
+public class Fun030 {
+	public static String main() {
+		int n = 3;
+		try {
+			return String.valueOf(n);
+		} finally {
+			n++;
+		}
+	}
+}

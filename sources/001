@@ -1,0 +1,6 @@
+public class Fun001 {
+	public String main() {
+		long i = 1l;
+		return String.valueOf(i*3/2);
+	}
+}

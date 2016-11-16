@@ -1,0 +1,10 @@
+public class Fun006 {
+
+    public static String haha(){
+        return "haha";
+    }
+    public String main() {
+        return ((Fun006)null).haha();
+    }
+
+}

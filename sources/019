@@ -1,0 +1,26 @@
+public class Fun019 {
+	public static String main(){
+		int i = 1;
+		Integer integer = 1;
+		String string = "str";
+		StringBuffer stringBuffer = new StringBuffer();
+		change(i, integer, string, stringBuffer);
+		return getString(i, integer, string, stringBuffer);
+	}
+	
+	public static void change(int i, Integer it, String str, StringBuffer sbf){
+		i++;
+		it++;
+		str = str + "ing";
+		sbf = sbf.append("string");
+	}
+	
+	public static String getString(Object...values){
+		String result = "";
+		for (Object object : values) {
+			result += String.valueOf(object);
+			result += "\r\n";
+		}
+		return result;
+	}
+}

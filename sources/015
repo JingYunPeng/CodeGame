@@ -1,0 +1,17 @@
+public class Fun015 {
+
+	String d = "default";
+
+	public String main() {
+		saveDefault: save("initValue");
+		return d;
+	}
+
+	public void saveDefault(String value) {
+		d = value;
+	}
+
+	public String save(String value) {
+		return "saved:" + value;
+	}
+}

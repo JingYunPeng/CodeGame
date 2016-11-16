@@ -1,0 +1,15 @@
+public class Fun017 {
+	static boolean 张三;
+	static boolean 李四 = true;
+	public static String main(){
+		String result = "";
+		if(张三){
+			result += "张三";
+		}
+		if(李四){
+			result += "李四";
+		}
+		return result;
+	}
+
+}

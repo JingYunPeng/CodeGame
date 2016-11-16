@@ -1,0 +1,11 @@
+public class Fun028 {
+	public static String main() {
+		int num = 10000;
+		int end = Integer.MAX_VALUE;
+		int start = end - 100;
+		for (int i = start; (i <= end) && (num > 0); i++) {
+			num--;
+		}
+		return String.valueOf(num);
+	}
+}

@@ -1,0 +1,9 @@
+public class Fun029 {
+	public static String main() {
+		try {
+			return "3";
+		} finally {
+			return "4";
+		}
+	}
+}

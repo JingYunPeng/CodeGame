@@ -1,0 +1,7 @@
+public class Fun013 {
+	public String main(){
+		short i = 0;
+		i = i++ + 1;
+		return String.valueOf(i);
+	}
+}

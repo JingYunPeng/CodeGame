@@ -1,0 +1,8 @@
+public class Fun021 {
+	public static String main() {
+		Integer a = null;
+		int b = a;
+		return String.valueOf(b);
+	}
+
+}

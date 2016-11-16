@@ -1,0 +1,7 @@
+public class Fun005{
+	public String main() {
+		String str1 = "hello";
+		String str2 = "hello";
+		return String.valueOf(str1 == str2);
+	}
+}

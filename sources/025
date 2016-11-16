@@ -1,0 +1,5 @@
+public class Fun025 {
+	public static String main() {
+		return "2+2=" + 2 + 2;
+	}
+}

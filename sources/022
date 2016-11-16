@@ -1,0 +1,11 @@
+public class Fun022 {
+	public static String main() {
+		boolean b = isOddNum(-3);
+		return String.valueOf(b);
+	}
+	
+	public static boolean isOddNum(int n) {
+		return (n % 2 == 1);
+	}
+
+}

@@ -1,0 +1,5 @@
+public class Fun020 {
+	public static String main(){
+		return String.valueOf(10%1.5);
+	}
+}

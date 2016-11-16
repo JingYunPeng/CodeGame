@@ -1,0 +1,42 @@
+import java.util.Random;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class Fun027 {
+
+	private static Random rnd = new Random();
+
+	public static String main() {
+		String result = "";
+		Set<String> results = new TreeSet<String>();
+		initSet(results);
+		for (String elem : results) {
+			result += elem;
+		}
+		return result;
+	}
+	
+	private static void initSet(Set<String> results){
+		for(int i = 0;i<10000;i++){
+			results.add(next());
+		}
+	}
+	
+	private static String next(){
+		StringBuffer word= null;
+		switch (rnd.nextInt(2)) {
+		case 1:
+			word = new StringBuffer('P');
+			break;
+		case 2:
+			word = new StringBuffer('G');
+			break;
+		default:
+			word = new StringBuffer('M');
+		}
+		word.append('a');
+		word.append('i');
+		word.append('n');
+		return word.toString();
+	}
+}

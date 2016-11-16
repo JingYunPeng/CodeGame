@@ -1,0 +1,5 @@
+public class Fun016 {
+	public String main(){
+		return String.valueOf(016);
+	}
+}

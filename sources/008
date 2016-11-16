@@ -1,0 +1,16 @@
+public class Fun008 {
+
+    String str = new String("good");
+    char[] ch = { 'a', 'b', 'c' };
+    public String main() {
+
+        Fun008 ex = new Fun008();
+        ex.change(ex.str, ex.ch);
+        return ex.str + " and " + String.valueOf(ex.ch);
+    }
+
+    public void change(String str, char ch[]) {
+        str = "test ok";
+        ch[0] = 'g';
+    }
+}
