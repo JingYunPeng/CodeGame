@@ -1,8 +1,8 @@
 package codegame;
 
 public class ToolTipConstents {
-	public static String CONSOLE_OUTPUT_TIP = "ÔÄ¶Á´úÂë£¬·ÖÎö´úÂëÊä³ö½á¹û£¬²¢½«½á¹ûÌîÔÚ´ğÌâÇøÓò¡£t´ú±ítrue,f´ú±ífalse,err´ú±í±àÒëÊ§°Ü";
-	public static String YOU_WIN = "¹§Ï²Äã´ğ¶ÔÁË£¡";
-	public static String YOU_LOSE = "ºÜÒÅº¶£¬Äã´ğ´íÁË£¡";
+	public static String CONSOLE_OUTPUT_TIP = "é˜…è¯»ä»£ç ï¼Œåˆ†æä»£ç è¾“å‡ºç»“æœï¼Œå¹¶å°†ç»“æœå¡«åœ¨ç­”é¢˜åŒºåŸŸã€‚tä»£è¡¨true,fä»£è¡¨false,errä»£è¡¨ç¼–è¯‘å¤±è´¥";
+	public static String YOU_WIN = "æ­å–œä½ ç­”å¯¹äº†ï¼";
+	public static String YOU_LOSE = "å¾ˆé—æ†¾ï¼Œä½ ç­”é”™äº†ï¼";
 
 }

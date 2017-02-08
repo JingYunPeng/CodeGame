@@ -23,7 +23,7 @@ public class CodeGame extends Frame {
     private Button gotoButton;
 
     public CodeGame() {
-        super("¥˙¬Î–°”Œœ∑", 700, 800);
+        super("‰ª£Á†ÅÂ∞èÊ∏∏Êàè", 700, 800);
     }
 
     @Override
@@ -39,19 +39,19 @@ public class CodeGame extends Frame {
         consoleLabelComposite.setLayout(new FillLayout());
 
         runButton = new Button(consoleLabelComposite, SWT.PUSH);
-        runButton.setText("≤Èø¥¥∞∏");
+        runButton.setText("Êü•ÁúãÁ≠îÊ°à");
 
         preButton = new Button(consoleLabelComposite, SWT.PUSH);
-        preButton.setText("…œ“ªπÿ");
+        preButton.setText("‰∏ä‰∏ÄÂÖ≥");
 
         nextButton = new Button(consoleLabelComposite, SWT.PUSH);
-        nextButton.setText("œ¬“ªπÿ");
+        nextButton.setText("‰∏ã‰∏ÄÂÖ≥");
 
         roundText = new Text(consoleLabelComposite, SWT.SINGLE | SWT.BORDER);
         //roundText.setText("   ");
 
         gotoButton = new Button(consoleLabelComposite, SWT.PUSH);
-        gotoButton.setText("Ã¯πÿ");
+        gotoButton.setText("Ë∑≥ÂÖ≥");
 
 //		Composite consoleTextComposite = new Composite(shell, SWT.NONE);
 //
@@ -66,7 +66,7 @@ public class CodeGame extends Frame {
         Composite commitComposite = new Composite(shell, SWT.NONE);
         commitComposite.setLayout(new GridLayout(2, false));
         commitButton = new Button(commitComposite, SWT.PUSH);
-        commitButton.setText("Ã·Ωª");
+        commitButton.setText("Êèê‰∫§");
         resultLabel = new Label(commitComposite, SWT.NONE);
         resultLabel.setText(ToolTipConstents.CONSOLE_OUTPUT_TIP);
 
