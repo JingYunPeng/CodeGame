@@ -1,6 +1,6 @@
 public class Fun026 {
 	public static String main() {
-		//\u0022是双引号的Unicode转义字符
+		//\u0022鏄弻寮曞彿鐨刄nicode杞箟瀛楃
 		int length = "a\u0022.length() + \u0022b".length();
 		return String.valueOf(length);
 	}

@@ -1,13 +1,13 @@
 public class Fun017 {
-	static boolean 张三;
-	static boolean 李四 = true;
+	static boolean 寮犱笁;
+	static boolean 鏉庡洓 = true;
 	public static String main(){
 		String result = "";
-		if(张三){
-			result += "张三";
+		if(寮犱笁){
+			result += "寮犱笁";
 		}
-		if(李四){
-			result += "李四";
+		if(鏉庡洓){
+			result += "鏉庡洓";
 		}
 		return result;
 	}
